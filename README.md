@@ -1,2 +1,2 @@
-# elo
-Beginnings of office ping pong rating system
+# Office PingPong Elo System
+This script is meant to record matches of my office pingpong league. Inspired by Fivethirtyeight's Elo system for NFL, NBA, MLB (etc) games, I wanted to create something fun for the office. This uses the traditional Elo formula (located here: https://en.wikipedia.org/wiki/Elo_rating_system) and includes a logarithmic margin of victory multiplier to account for blowouts and close games. Currently, the Elo records are being stored on a google sheet, but I will be transferring that to a SQLite database when time permits. 
